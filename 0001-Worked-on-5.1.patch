@@ -1,0 +1,22 @@
+From 8c4c051e28ea95a555bfac992ee4005684fd00bd Mon Sep 17 00:00:00 2001
+From: hellboy123itsme <hellboy123itsme@aol.com>
+Date: Wed, 14 Mar 2012 14:59:49 -0700
+Subject: [PATCH] Worked on 5.1
+
+---
+ app/helpers/application_helper.rb |    1 +
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+
+diff --git a/app/helpers/application_helper.rb b/app/helpers/application_helper.rb
+index 78972d0..00d771e 100644
+--- a/app/helpers/application_helper.rb
++++ b/app/helpers/application_helper.rb
+@@ -13,4 +13,5 @@ module ApplicationHelper
+     image_tag 'logo.png', :alt => 'Sample App', :class => 'round'
+   end
+   
++  
+ end
+-- 
+1.7.5.4
+
